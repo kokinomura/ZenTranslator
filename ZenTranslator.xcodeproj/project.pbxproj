@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7AF4B2919516F73007F66CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AF4B2819516F73007F66CF /* AppDelegate.swift */; };
+		E7AF4B2B19516F73007F66CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AF4B2A19516F73007F66CF /* ViewController.swift */; };
+		E7AF4B2E19516F73007F66CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AF4B2C19516F73007F66CF /* Main.storyboard */; };
+		E7AF4B3019516F73007F66CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7AF4B2F19516F73007F66CF /* Images.xcassets */; };
+		E7AF4B3C19516F73007F66CF /* ZenTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AF4B3B19516F73007F66CF /* ZenTranslatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7AF4B3619516F73007F66CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AF4B1B19516F73007F66CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7AF4B2219516F73007F66CF;
+			remoteInfo = ZenTranslator;
+		};
+		E7AF4B4519517071007F66CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AF4B1B19516F73007F66CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7AF4B2219516F73007F66CF;
+			remoteInfo = ZenTranslator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7AF4B2319516F73007F66CF /* ZenTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AF4B2719516F73007F66CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AF4B2819516F73007F66CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7AF4B2A19516F73007F66CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7AF4B2D19516F73007F66CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7AF4B2F19516F73007F66CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E7AF4B3519516F73007F66CF /* ZenTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AF4B3A19516F73007F66CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AF4B3B19516F73007F66CF /* ZenTranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTranslatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7AF4B2019516F73007F66CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AF4B3219516F73007F66CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7AF4B1A19516F73007F66CF = {
+			isa = PBXGroup;
+			children = (
+				E7AF4B2519516F73007F66CF /* ZenTranslator */,
+				E7AF4B3819516F73007F66CF /* ZenTranslatorTests */,
+				E7AF4B2419516F73007F66CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7AF4B2419516F73007F66CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7AF4B2319516F73007F66CF /* ZenTranslator.app */,
+				E7AF4B3519516F73007F66CF /* ZenTranslatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7AF4B2519516F73007F66CF /* ZenTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				E7AF4B2819516F73007F66CF /* AppDelegate.swift */,
+				E7AF4B2A19516F73007F66CF /* ViewController.swift */,
+				E7AF4B2C19516F73007F66CF /* Main.storyboard */,
+				E7AF4B2F19516F73007F66CF /* Images.xcassets */,
+				E7AF4B2619516F73007F66CF /* Supporting Files */,
+			);
+			path = ZenTranslator;
+			sourceTree = "<group>";
+		};
+		E7AF4B2619516F73007F66CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7AF4B2719516F73007F66CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7AF4B3819516F73007F66CF /* ZenTranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7AF4B3B19516F73007F66CF /* ZenTranslatorTests.swift */,
+				E7AF4B3919516F73007F66CF /* Supporting Files */,
+			);
+			path = ZenTranslatorTests;
+			sourceTree = "<group>";
+		};
+		E7AF4B3919516F73007F66CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7AF4B3A19516F73007F66CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7AF4B2219516F73007F66CF /* ZenTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AF4B3F19516F73007F66CF /* Build configuration list for PBXNativeTarget "ZenTranslator" */;
+			buildPhases = (
+				E7AF4B1F19516F73007F66CF /* Sources */,
+				E7AF4B2019516F73007F66CF /* Frameworks */,
+				E7AF4B2119516F73007F66CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenTranslator;
+			productName = ZenTranslator;
+			productReference = E7AF4B2319516F73007F66CF /* ZenTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7AF4B3419516F73007F66CF /* ZenTranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AF4B4219516F73007F66CF /* Build configuration list for PBXNativeTarget "ZenTranslatorTests" */;
+			buildPhases = (
+				E7AF4B3119516F73007F66CF /* Sources */,
+				E7AF4B3219516F73007F66CF /* Frameworks */,
+				E7AF4B3319516F73007F66CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7AF4B3719516F73007F66CF /* PBXTargetDependency */,
+				E7AF4B4619517071007F66CF /* PBXTargetDependency */,
+			);
+			name = ZenTranslatorTests;
+			productName = ZenTranslatorTests;
+			productReference = E7AF4B3519516F73007F66CF /* ZenTranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7AF4B1B19516F73007F66CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "IMG SRC";
+				TargetAttributes = {
+					E7AF4B2219516F73007F66CF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					E7AF4B3419516F73007F66CF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = E7AF4B2219516F73007F66CF;
+					};
+				};
+			};
+			buildConfigurationList = E7AF4B1E19516F73007F66CF /* Build configuration list for PBXProject "ZenTranslator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7AF4B1A19516F73007F66CF;
+			productRefGroup = E7AF4B2419516F73007F66CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7AF4B2219516F73007F66CF /* ZenTranslator */,
+				E7AF4B3419516F73007F66CF /* ZenTranslatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7AF4B2119516F73007F66CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AF4B2E19516F73007F66CF /* Main.storyboard in Resources */,
+				E7AF4B3019516F73007F66CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AF4B3319516F73007F66CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7AF4B1F19516F73007F66CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AF4B2B19516F73007F66CF /* ViewController.swift in Sources */,
+				E7AF4B2919516F73007F66CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AF4B3119516F73007F66CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AF4B3C19516F73007F66CF /* ZenTranslatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7AF4B3719516F73007F66CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7AF4B2219516F73007F66CF /* ZenTranslator */;
+			targetProxy = E7AF4B3619516F73007F66CF /* PBXContainerItemProxy */;
+		};
+		E7AF4B4619517071007F66CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7AF4B2219516F73007F66CF /* ZenTranslator */;
+			targetProxy = E7AF4B4519517071007F66CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7AF4B2C19516F73007F66CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7AF4B2D19516F73007F66CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7AF4B3D19516F73007F66CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7AF4B3E19516F73007F66CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7AF4B4019516F73007F66CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ZenTranslator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7AF4B4119516F73007F66CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ZenTranslator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7AF4B4319516F73007F66CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZenTranslator.app/ZenTranslator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZenTranslatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		E7AF4B4419516F73007F66CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZenTranslator.app/ZenTranslator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZenTranslatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7AF4B1E19516F73007F66CF /* Build configuration list for PBXProject "ZenTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AF4B3D19516F73007F66CF /* Debug */,
+				E7AF4B3E19516F73007F66CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AF4B3F19516F73007F66CF /* Build configuration list for PBXNativeTarget "ZenTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AF4B4019516F73007F66CF /* Debug */,
+				E7AF4B4119516F73007F66CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AF4B4219516F73007F66CF /* Build configuration list for PBXNativeTarget "ZenTranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AF4B4319516F73007F66CF /* Debug */,
+				E7AF4B4419516F73007F66CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7AF4B1B19516F73007F66CF /* Project object */;
+}

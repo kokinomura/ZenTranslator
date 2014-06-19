@@ -29,11 +29,11 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.90111517137096775" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type here" minimumFontSize="17" id="7Gb-Sj-9Z0">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type here" minimumFontSize="17" clearButtonMode="whileEditing" id="7Gb-Sj-9Z0">
                                         <rect key="frame" x="7" y="20" width="240" height="49"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="44"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -52,43 +52,40 @@
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="JaC-uN-WlI">
-                                <rect key="frame" x="55" y="348" width="210" height="80"/>
+                                <rect key="frame" x="20" y="353" width="280" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="BQk-yB-o7P" userLabel="Line View">
-                                        <rect key="frame" x="17" y="42" width="176" height="0.5"/>
+                                        <rect key="frame" x="52" y="42" width="176" height="0.5"/>
                                         <color key="backgroundColor" white="0.89865801411290325" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="English" textAlignment="center" minimumFontSize="17" id="mfd-wv-Zvl">
-                                        <rect key="frame" x="29" y="16" width="152" height="23"/>
+                                    <view contentMode="scaleToFill" id="yh6-3Z-Sc5" userLabel="From Lang View" customClass="V8HorizontalPickerView">
+                                        <rect key="frame" x="7" y="6" width="266" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="日本語" textAlignment="center" minimumFontSize="17" id="L6V-TC-vCc">
-                                        <rect key="frame" x="29" y="47" width="152" height="23"/>
+                                        <gestureRecognizers/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="2Fm-eb-VWQ" userLabel="To Lang View" customClass="V8HorizontalPickerView">
+                                        <rect key="frame" x="28" y="45" width="224" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.73790322580645162" green="0.32412424395161288" blue="0.22230972782258063" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.12882843515375547" green="0.49225842226437089" blue="0.60173233695652173" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="creditLabel" destination="517-zw-VQ8" id="KGx-ZF-7Mo"/>
+                        <outlet property="fromLangView" destination="yh6-3Z-Sc5" id="6jN-0r-ew6"/>
                         <outlet property="inputTextField" destination="7Gb-Sj-9Z0" id="HKe-6h-F5A"/>
+                        <outlet property="toLangView" destination="2Fm-eb-VWQ" id="Y91-x9-gH7"/>
                         <outlet property="translateTextField" destination="P0V-5v-fgQ" id="yC9-2u-3hM"/>
                     </connections>
                 </viewController>

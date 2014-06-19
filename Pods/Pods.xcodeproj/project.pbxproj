@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C6F0D7B1CF41DDB366482F /* Pods-V8HorizontalPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E6534AC73D4C4D8E14E2DE /* Pods-V8HorizontalPickerView-dummy.m */; };
+		433AD99B7F7641A08E44EDE5 /* V8HorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D1A97F07D4009AAE52268 /* V8HorizontalPickerView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		474A7D18D87D47128D0FDDD0 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FD13F3C46A4190A8812F03 /* Pods-dummy.m */; };
+		5012F753FB8C4A1E9AB38D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32297D2C2FD9488F907EC272 /* Foundation.framework */; };
+		8E50FC34351D40FBBBE76192 /* V8HorizontalPickerViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 32656B03D026447087854C6C /* V8HorizontalPickerViewProtocol.h */; };
+		D8689E9B58744B0CB8DF78F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32297D2C2FD9488F907EC272 /* Foundation.framework */; };
+		E7E8330A1952C38D0027F16A /* V8HorizontalPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E833091952C38D0027F16A /* V8HorizontalPickerView.h */; };
+		F05A67BBA0754FE986B4E4F0 /* libPods-V8HorizontalPickerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49076B7612684FBE93D74BED /* libPods-V8HorizontalPickerView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20377068B4CD4E85B6036307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4AECC3803745ED89824FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8ADE4CA8334CA2980A4F7D;
+			remoteInfo = "Pods-V8HorizontalPickerView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32297D2C2FD9488F907EC272 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32656B03D026447087854C6C /* V8HorizontalPickerViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerViewProtocol.h; sourceTree = "<group>"; };
+		366D6017E2AB4CAFBE341626 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		49076B7612684FBE93D74BED /* libPods-V8HorizontalPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-V8HorizontalPickerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505A6C52829746DAA72C8E15 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		52CE4D366C1143818E827C22 /* Pods-V8HorizontalPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-V8HorizontalPickerView.xcconfig"; sourceTree = "<group>"; };
+		70FD13F3C46A4190A8812F03 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		7C147D78EE0249B4A11AF20C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		8E5D1A97F07D4009AAE52268 /* V8HorizontalPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = V8HorizontalPickerView.m; sourceTree = "<group>"; };
+		91CD440605F948D894653415 /* Pods-V8HorizontalPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-V8HorizontalPickerView-prefix.pch"; sourceTree = "<group>"; };
+		C3792AE9E34641AB929E6D9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E6534AC73D4C4D8E14E2DE /* Pods-V8HorizontalPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-V8HorizontalPickerView-dummy.m"; sourceTree = "<group>"; };
+		CC979DE35ED044289505E04E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1B12E7FB4B547E683E9DD71 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		DCAEF9F400184890AF9D1ED8 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7E833091952C38D0027F16A /* V8HorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerView.h; sourceTree = "<group>"; };
+		F1F09961F0344E0DA6861962 /* Pods-V8HorizontalPickerView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-V8HorizontalPickerView-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23DF2A792D794AF3A08C5FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5012F753FB8C4A1E9AB38D9D /* Foundation.framework in Frameworks */,
+				F05A67BBA0754FE986B4E4F0 /* libPods-V8HorizontalPickerView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0553C4625D24B509C313966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8689E9B58744B0CB8DF78F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A95DD6FCC34E04BF7C0629 /* V8HorizontalPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E7E833091952C38D0027F16A /* V8HorizontalPickerView.h */,
+				8E5D1A97F07D4009AAE52268 /* V8HorizontalPickerView.m */,
+				32656B03D026447087854C6C /* V8HorizontalPickerViewProtocol.h */,
+				7B3CB73D1DB04AECA506D8D7 /* Support Files */,
+			);
+			path = V8HorizontalPickerView;
+			sourceTree = "<group>";
+		};
+		5D1D294B594645C490A722F6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				32297D2C2FD9488F907EC272 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EFEEB189B5B4133A3417155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A95DD6FCC34E04BF7C0629 /* V8HorizontalPickerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6369B1BB515F4BAF8D19F6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3792AE9E34641AB929E6D9B /* libPods.a */,
+				49076B7612684FBE93D74BED /* libPods-V8HorizontalPickerView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B3CB73D1DB04AECA506D8D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CE4D366C1143818E827C22 /* Pods-V8HorizontalPickerView.xcconfig */,
+				F1F09961F0344E0DA6861962 /* Pods-V8HorizontalPickerView-Private.xcconfig */,
+				C8E6534AC73D4C4D8E14E2DE /* Pods-V8HorizontalPickerView-dummy.m */,
+				91CD440605F948D894653415 /* Pods-V8HorizontalPickerView-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		A65B0487DBB7424B9F402FED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C74E0F731A0B4A75891A53DA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0180582AA4D40848560CBB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D294B594645C490A722F6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74E0F731A0B4A75891A53DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1B12E7FB4B547E683E9DD71 /* Pods.xcconfig */,
+				DCAEF9F400184890AF9D1ED8 /* Pods-acknowledgements.markdown */,
+				366D6017E2AB4CAFBE341626 /* Pods-acknowledgements.plist */,
+				70FD13F3C46A4190A8812F03 /* Pods-dummy.m */,
+				505A6C52829746DAA72C8E15 /* Pods-environment.h */,
+				7C147D78EE0249B4A11AF20C /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF57839659914C2A8FB4AECC = {
+			isa = PBXGroup;
+			children = (
+				CC979DE35ED044289505E04E /* Podfile */,
+				B0180582AA4D40848560CBB8 /* Frameworks */,
+				5EFEEB189B5B4133A3417155 /* Pods */,
+				6369B1BB515F4BAF8D19F6E0 /* Products */,
+				A65B0487DBB7424B9F402FED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA82EDB6767D462EB1F2C20F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E50FC34351D40FBBBE76192 /* V8HorizontalPickerViewProtocol.h in Headers */,
+				E7E8330A1952C38D0027F16A /* V8HorizontalPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		732C38BB116C4277B29CE9B0 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF104440E6FA48818E644800 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				2441CC4F688B45FE8EA21973 /* Sources */,
+				23DF2A792D794AF3A08C5FFE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC91F0CC73349BAACA31D84 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = C3792AE9E34641AB929E6D9B /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB8ADE4CA8334CA2980A4F7D /* Pods-V8HorizontalPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B49F5DC14074575A7AFCDE4 /* Build configuration list for PBXNativeTarget "Pods-V8HorizontalPickerView" */;
+			buildPhases = (
+				14EFF0C2747648239D4130AC /* Sources */,
+				A0553C4625D24B509C313966 /* Frameworks */,
+				EA82EDB6767D462EB1F2C20F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-V8HorizontalPickerView";
+			productName = "Pods-V8HorizontalPickerView";
+			productReference = 49076B7612684FBE93D74BED /* libPods-V8HorizontalPickerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF4AECC3803745ED89824FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = BCCE933DA234416997B02FFD /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF57839659914C2A8FB4AECC;
+			productRefGroup = 6369B1BB515F4BAF8D19F6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732C38BB116C4277B29CE9B0 /* Pods */,
+				DB8ADE4CA8334CA2980A4F7D /* Pods-V8HorizontalPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14EFF0C2747648239D4130AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C6F0D7B1CF41DDB366482F /* Pods-V8HorizontalPickerView-dummy.m in Sources */,
+				433AD99B7F7641A08E44EDE5 /* V8HorizontalPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2441CC4F688B45FE8EA21973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474A7D18D87D47128D0FDDD0 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEC91F0CC73349BAACA31D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8ADE4CA8334CA2980A4F7D /* Pods-V8HorizontalPickerView */;
+			targetProxy = 20377068B4CD4E85B6036307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51E11F6F2BE346A5A7258543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57DE4669F6C840718802F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F09961F0344E0DA6861962 /* Pods-V8HorizontalPickerView-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-V8HorizontalPickerView-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66ADDCDC89F64E76B9CA66DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F09961F0344E0DA6861962 /* Pods-V8HorizontalPickerView-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-V8HorizontalPickerView-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A047A6B2CE864E5A810CD88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B12E7FB4B547E683E9DD71 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B13B54EC715040FF92FF1A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		E619BF92843E401F91133C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B12E7FB4B547E683E9DD71 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B49F5DC14074575A7AFCDE4 /* Build configuration list for PBXNativeTarget "Pods-V8HorizontalPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66ADDCDC89F64E76B9CA66DC /* Debug */,
+				57DE4669F6C840718802F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF104440E6FA48818E644800 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A047A6B2CE864E5A810CD88D /* Debug */,
+				E619BF92843E401F91133C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCE933DA234416997B02FFD /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13B54EC715040FF92FF1A14 /* Debug */,
+				51E11F6F2BE346A5A7258543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF4AECC3803745ED89824FC5 /* Project object */;
+}

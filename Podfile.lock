@@ -1,0 +1,10 @@
+PODS:
+  - V8HorizontalPickerView (1.0.0)
+
+DEPENDENCIES:
+  - V8HorizontalPickerView (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  V8HorizontalPickerView: 76d45849549fc6b26f497361cbc8f853b407bc13
+
+COCOAPODS: 0.33.1

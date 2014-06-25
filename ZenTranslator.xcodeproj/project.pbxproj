@@ -12,7 +12,7 @@
 		E739CEAD195AB01B00EBC81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E739CEAB195AB01B00EBC81A /* Main.storyboard */; };
 		E739CEAF195AB01B00EBC81A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E739CEAE195AB01B00EBC81A /* Images.xcassets */; };
 		E739CEBB195AB01B00EBC81A /* ZenTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E739CEBA195AB01B00EBC81A /* ZenTranslatorTests.swift */; };
-		E739CEC5195AB03E00EBC81A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E739CEC4195AB03E00EBC81A /* HistoryView.swift */; };
+		E739CEC5195AB03E00EBC81A /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E739CEC4195AB03E00EBC81A /* PlaceholderTextView.swift */; };
 		E739CEC7195AB04900EBC81A /* LangData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E739CEC6195AB04900EBC81A /* LangData.swift */; };
 		E739CEE2195AB16800EBC81A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E739CEDD195AB16800EBC81A /* LICENSE */; };
 		E739CEE4195AB16800EBC81A /* V8HorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E739CEE0195AB16800EBC81A /* V8HorizontalPickerView.m */; };
@@ -38,11 +38,10 @@
 		E739CEB4195AB01B00EBC81A /* ZenTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E739CEB9195AB01B00EBC81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E739CEBA195AB01B00EBC81A /* ZenTranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTranslatorTests.swift; sourceTree = "<group>"; };
-		E739CEC4195AB03E00EBC81A /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		E739CEC4195AB03E00EBC81A /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		E739CEC6195AB04900EBC81A /* LangData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LangData.swift; sourceTree = "<group>"; };
 		E739CED9195AB15700EBC81A /* ZenTranslator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenTranslator-Bridging-Header.h"; sourceTree = "<group>"; };
 		E739CEDD195AB16800EBC81A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E739CEDE195AB16800EBC81A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E739CEDF195AB16800EBC81A /* V8HorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerView.h; sourceTree = "<group>"; };
 		E739CEE0195AB16800EBC81A /* V8HorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V8HorizontalPickerView.m; sourceTree = "<group>"; };
 		E739CEE1195AB16800EBC81A /* V8HorizontalPickerViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerViewProtocol.h; sourceTree = "<group>"; };
@@ -90,7 +89,7 @@
 				E739CEA7195AB01B00EBC81A /* AppDelegate.swift */,
 				E739CEA9195AB01B00EBC81A /* ViewController.swift */,
 				E739CEC6195AB04900EBC81A /* LangData.swift */,
-				E739CEC4195AB03E00EBC81A /* HistoryView.swift */,
+				E739CEC4195AB03E00EBC81A /* PlaceholderTextView.swift */,
 				E739CEAB195AB01B00EBC81A /* Main.storyboard */,
 				E739CEAE195AB01B00EBC81A /* Images.xcassets */,
 				E739CEDC195AB16800EBC81A /* V8HorizontalPickerView */,
@@ -129,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				E739CEDD195AB16800EBC81A /* LICENSE */,
-				E739CEDE195AB16800EBC81A /* README.md */,
 				E739CEDF195AB16800EBC81A /* V8HorizontalPickerView.h */,
 				E739CEE0195AB16800EBC81A /* V8HorizontalPickerView.m */,
 				E739CEE1195AB16800EBC81A /* V8HorizontalPickerViewProtocol.h */,
@@ -240,7 +238,7 @@
 				E739CEAA195AB01B00EBC81A /* ViewController.swift in Sources */,
 				E739CEC7195AB04900EBC81A /* LangData.swift in Sources */,
 				E739CEE4195AB16800EBC81A /* V8HorizontalPickerView.m in Sources */,
-				E739CEC5195AB03E00EBC81A /* HistoryView.swift in Sources */,
+				E739CEC5195AB03E00EBC81A /* PlaceholderTextView.swift in Sources */,
 				E739CEA8195AB01B00EBC81A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -345,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -434,6 +432,7 @@
 				E739CEC0195AB01B00EBC81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E739CEC1195AB01B00EBC81A /* Build configuration list for PBXNativeTarget "ZenTranslatorTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +441,7 @@
 				E739CEC3195AB01B00EBC81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

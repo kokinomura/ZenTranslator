@@ -8,10 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate, NSXMLParserDelegate, V8HorizontalPickerViewDelegate, V8HorizontalPickerViewDataSource {
+class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate, NSXMLParserDelegate, V8HorizontalPickerViewDelegate, V8HorizontalPickerViewDataSource {
                             
     @IBOutlet var inputTextField : UITextField
-    @IBOutlet var translateTextField : UITextField
+    @IBOutlet var translateTextField: PlaceholderTextView
     @IBOutlet var creditLabel : UILabel
     
     var accessToken : String = ""
@@ -41,6 +41,7 @@ class ViewController: UIViewController, UITextFieldDelegate, NSXMLParserDelegate
         // text fields
         inputTextField.delegate = self
         translateTextField.delegate = self
+        translateTextField.setPlaceHolder("翻訳")
         
         // credit label
         var attributedText = NSMutableAttributedString(string:creditLabel.text)
@@ -73,6 +74,9 @@ class ViewController: UIViewController, UITextFieldDelegate, NSXMLParserDelegate
         // ここで背景色と同じ色の画像を用意すればフェードもできる
 //        var leftFade = UIImageView(image:UIImage(named:"left_fade"))
 //        fromLangView.leftEdgeView = leftFade
+        
+        UITextField.appearance().tintColor = UIColor.grayColor()
+        UITextView.appearance().tintColor = UIColor.grayColor()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -167,7 +171,7 @@ extension ViewController {
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         if textField.text != "" {
             let translated = translate(textField.text)
-            translateTextField.text = translated
+            translateTextField.setTextPlaceholder(translated)
         }
         
         textField.resignFirstResponder()
@@ -175,13 +179,14 @@ extension ViewController {
     }
     
     @IBAction func edtingDidBegin(textField: UITextField) {
-        translateTextField.text = ""
+        translateTextField.setTextPlaceholder("")
     }
     
+    //
     func hideKeyboard() {
         inputTextField.resignFirstResponder()
+        translateTextField.resignFirstResponder()
     }
-    
     
     // Parse XML
     func parser(parser: NSXMLParser, elementName: NSString, namespaceURI: NSString, qName: NSString, attributeDict: NSDictionary) {

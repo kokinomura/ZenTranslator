@@ -350,12 +350,23 @@
 
 
 #pragma mark - Scroll To Element Method
-- (void)scrollToElement:(NSInteger)index animated:(BOOL)animate {
+- (void)scrollToElement:(NSInteger)index animated:(BOOL)animated {
+    [self scrollToElement:index animated:animated completion:nil];
+}
+
+- (void)scrollToElement:(NSInteger)index animated:(BOOL)animate completion:(void (^)(BOOL finished))completion{
 	_currentSelectedIndex = index;
 	int x = [self centerOfElementAtIndex:index] - self.selectionPoint.x;
-    [UIView animateWithDuration:0.4 delay:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
+
+    float animationTime;
+    if (animate) {
+        animationTime = 0.4;
+    } else {
+        animationTime = 0.01;
+    }
+        [UIView animateWithDuration:animationTime delay:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
         [_scrollView setContentOffset:CGPointMake(x, 0)];
-    }completion:nil];
+        } completion:completion];
     
 
     // notify delegate of the selected index
@@ -435,7 +446,7 @@
         tapRecognizer.delegate = self;
         [_scrollView addGestureRecognizer:tapRecognizer];
         UILongPressGestureRecognizer *longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(scrollViewLongPressed:)];
-        longPressRecognizer.minimumPressDuration = 0.2;
+        longPressRecognizer.minimumPressDuration = 0.02;
         longPressRecognizer.delegate = self;
         [_scrollView addGestureRecognizer:longPressRecognizer];
 

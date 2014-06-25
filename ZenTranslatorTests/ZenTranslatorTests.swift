@@ -2,7 +2,7 @@
 //  ZenTranslatorTests.swift
 //  ZenTranslatorTests
 //
-//  Created by nomura on 2014/06/18.
+//  Created by nomura on 2014/06/25.
 //  Copyright (c) 2014年 IMG SRC. All rights reserved.
 //
 

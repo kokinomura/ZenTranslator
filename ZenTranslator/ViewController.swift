@@ -14,14 +14,15 @@ class ViewController: UIViewController, UITextFieldDelegate, NSXMLParserDelegate
     @IBOutlet var translateTextField : UITextField
     @IBOutlet var creditLabel : UILabel
     
-    var accessToken = ""
-    var tmpParsedString = ""
+    var accessToken : String = ""
+    var tmpParsedString : String?
     
     // Languages
-    var langNames = ["한국어", "中文", "日本語", "English", "Deutsch", "Italiano", "Español", "ру́сский язы́к", "Português", "Nederlands"]
-    var langCodes = ["ko", "zh-CHS", "ja", "en", "de", "it", "es", "ru", "pt", "nl"]
+    let langCodes = langData.langCodes
+    let langNames = langData.langNames
+    
     var fromLangCode = ""
-    var toLangCode = "ja"
+    var toLangCode = ""
 
     @IBOutlet var fromLangView : V8HorizontalPickerView
     @IBOutlet var toLangView : V8HorizontalPickerView
@@ -37,8 +38,9 @@ class ViewController: UIViewController, UITextFieldDelegate, NSXMLParserDelegate
         var tapRecognizer = UITapGestureRecognizer(target: self, action:"hideKeyboard")
         self.view.addGestureRecognizer(tapRecognizer)
         
-        // input text field
+        // text fields
         inputTextField.delegate = self
+        translateTextField.delegate = self
         
         // credit label
         var attributedText = NSMutableAttributedString(string:creditLabel.text)
@@ -75,12 +77,19 @@ class ViewController: UIViewController, UITextFieldDelegate, NSXMLParserDelegate
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        fromLangView.scrollToElement(3, animated:false)
-        toLangView.scrollToElement(2, animated:false)
     }
     
     override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
         getAccessToken()
+        let enLangCode = 4
+        let jaLangCode = 15
+        fromLangView.scrollToElement(jaLangCode, animated:false)
+        toLangView.scrollToElement(enLangCode, animated:false, completion:{
+            (finished: Bool) in
+            self.showLangs(self.toLangView)
+            self.showLangs(self.fromLangView)
+        })
     }
 
     override func didReceiveMemoryWarning() {
@@ -109,9 +118,17 @@ class ViewController: UIViewController, UITextFieldDelegate, NSXMLParserDelegate
         let optionalResult : NSData? = NSURLConnection.sendSynchronousRequest(request, returningResponse: response, error: nil)
         
         if let result = optionalResult {
-            var contents : NSDictionary = NSJSONSerialization.JSONObjectWithData(result, options: nil, error: nil) as NSDictionary
+            let contents : NSDictionary = NSJSONSerialization.JSONObjectWithData(result, options: nil, error: nil) as NSDictionary
             println(contents)
-            accessToken = contents.objectForKey("access_token")? as String
+            
+            // get access token in <expires_in> sec
+            accessToken = contents.objectForKey("access_token") as String
+            let expires_in_str = contents.objectForKey("expires_in") as NSString
+            let expires_in = Int64(expires_in_str.intValue) * Int64(NSEC_PER_SEC)
+            var time = dispatch_time(DISPATCH_TIME_NOW, expires_in)
+            dispatch_after(time, dispatch_get_main_queue(), {
+                self.getAccessToken()
+            })
         }
     }
     
@@ -131,9 +148,12 @@ class ViewController: UIViewController, UITextFieldDelegate, NSXMLParserDelegate
             var parser = NSXMLParser(data:result)
             parser.delegate = self
             parser.parse()
-            let parsedString = tmpParsedString
-            tmpParsedString = ""
-            return parsedString
+            if let parsedString = tmpParsedString {
+                tmpParsedString = ""
+                return parsedString
+            } else {
+                return ""
+            }
         } else {
             return ""
         }
@@ -155,7 +175,6 @@ extension ViewController {
     }
     
     @IBAction func edtingDidBegin(textField: UITextField) {
-//        textField.text = ""
         translateTextField.text = ""
     }
     

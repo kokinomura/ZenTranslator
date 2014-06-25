@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7AF4B2219516F73007F66CF"
+               BlueprintIdentifier = "E739CEA1195AB01B00EBC81A"
                BuildableName = "ZenTranslator.app"
                BlueprintName = "ZenTranslator"
                ReferencedContainer = "container:ZenTranslator.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7AF4B3419516F73007F66CF"
+               BlueprintIdentifier = "E739CEB3195AB01B00EBC81A"
                BuildableName = "ZenTranslatorTests.xctest"
                BlueprintName = "ZenTranslatorTests"
                ReferencedContainer = "container:ZenTranslator.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7AF4B2219516F73007F66CF"
+            BlueprintIdentifier = "E739CEA1195AB01B00EBC81A"
             BuildableName = "ZenTranslator.app"
             BlueprintName = "ZenTranslator"
             ReferencedContainer = "container:ZenTranslator.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7AF4B2219516F73007F66CF"
+            BlueprintIdentifier = "E739CEA1195AB01B00EBC81A"
             BuildableName = "ZenTranslator.app"
             BlueprintName = "ZenTranslator"
             ReferencedContainer = "container:ZenTranslator.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7AF4B2219516F73007F66CF"
+            BlueprintIdentifier = "E739CEA1195AB01B00EBC81A"
             BuildableName = "ZenTranslator.app"
             BlueprintName = "ZenTranslator"
             ReferencedContainer = "container:ZenTranslator.xcodeproj">

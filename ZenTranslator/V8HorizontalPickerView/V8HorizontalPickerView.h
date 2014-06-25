@@ -10,13 +10,13 @@
 
 // position of indicator view, if shown
 typedef enum {
-	V8HorizontalPickerIndicatorBottom = 0,
-	V8HorizontalPickerIndicatorTop	
+    V8HorizontalPickerIndicatorBottom = 0,
+    V8HorizontalPickerIndicatorTop	
 } V8HorizontalPickerIndicatorPosition;
 
 
 
-@interface V8HorizontalPickerView : UIView <UIScrollViewDelegate> { }
+@interface V8HorizontalPickerView : UIView <UIScrollViewDelegate, UIGestureRecognizerDelegate> { }
 
 // delegate and datasources to feed scroll view. this view only maintains a weak reference to these
 @property (nonatomic, weak) IBOutlet id <V8HorizontalPickerViewDataSource> dataSource;
@@ -49,9 +49,12 @@ typedef enum {
 // padding for left/right scroll edge views
 @property (nonatomic, assign) CGFloat scrollEdgeViewPadding;
 
+//
+@property BOOL scrollEnabled;
 
 - (void)reloadData;
 - (void)scrollToElement:(NSInteger)index animated:(BOOL)animate;
+- (void)scrollToElement:(NSInteger)index animated:(BOOL)animate completion:(void (^)(BOOL finished))completion;
 
 @end
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
     </dependencies>
     <scenes>
@@ -20,7 +21,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" id="AJX-rb-eQ6" userLabel="Input View">
-                                <rect key="frame" x="20" y="193" width="280" height="100"/>
+                                <rect key="frame" x="20" y="193" width="280" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="EsH-20-XVZ" userLabel="Line View">
@@ -29,7 +30,7 @@
                                         <color key="backgroundColor" white="0.90111517137096775" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type here" minimumFontSize="17" clearButtonMode="whileEditing" id="7Gb-Sj-9Z0">
-                                        <rect key="frame" x="7" y="20" width="240" height="49"/>
+                                        <rect key="frame" x="7" y="16" width="240" height="49"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -39,12 +40,12 @@
                                             <action selector="edtingDidBegin:" destination="vXZ-lx-hvc" eventType="editingDidBegin" id="bUc-Hx-QYs"/>
                                         </connections>
                                     </textField>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="right" id="bB8-73-WCi" customClass="PlaceholderTextView" customModule="ZenTranslator" customModuleProvider="target">
-                                        <rect key="frame" x="40" y="66" width="232" height="17"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="right" id="bB8-73-WCi" customClass="PlaceholderTextView" customModule="ZenTranslator" customModuleProvider="target">
+                                        <rect key="frame" x="45" y="64" width="232" height="57"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>

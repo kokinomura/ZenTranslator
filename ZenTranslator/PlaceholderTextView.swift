@@ -13,19 +13,20 @@ class PlaceholderTextView : UITextView {
     var placeholder = ""
 
     override func awakeFromNib() {
-        textField = UITextField(frame: CGRect(x: 0, y: 0, width:self.bounds.size.width, height:self.bounds.size.height))
-        textField!.backgroundColor = self.backgroundColor
-        textField!.userInteractionEnabled = false
-        textField!.font = self.font
-        textField!.textColor = self.textColor
-        textField!.clearButtonMode = UITextFieldViewMode.Never
-        textField!.textAlignment = self.textAlignment
-        textField!.minimumFontSize = 10
-        textField!.adjustsFontSizeToFitWidth = true
-        textField!.borderStyle = UITextBorderStyle.None
-        self.addSubview(textField)
-        
-        self.textContainerInset = UIEdgeInsets(top: -2.0, left: 0.0, bottom: 0.0, right: -5.0)
+        textField = UITextField(frame: CGRect(x: 0, y: 2, width:self.bounds.size.width-5, height:17))
+        if textField {
+            textField!.backgroundColor = self.backgroundColor
+            textField!.userInteractionEnabled = false
+            textField!.font = self.font
+            textField!.textColor = self.textColor
+            textField!.clearButtonMode = UITextFieldViewMode.Never
+            textField!.textAlignment = self.textAlignment
+            textField!.minimumFontSize = 10
+            textField!.adjustsFontSizeToFitWidth = true
+            textField!.borderStyle = UITextBorderStyle.None
+            self.addSubview(textField)
+        }
+        self.textContainerInset = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 0.0, right: 0.0)
     }
     
     func setPlaceHolder(str: String) {
